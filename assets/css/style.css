@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+    --secondary-color: #E1E1E6;
+    --primary-color: #02799D;
+    --desc-color: #323238;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-direction{
+    flex-direction: column;
+}
+
+.gap32{
+    padding: 1.2rem;
+    gap: 3.2rem;
+}
+
+.bt-sound{
+    width: 152px;
+    height: 152px;
+    border: none;
+    background-color: var(--secondary-color);
+    border-radius: 24px;
+    cursor: pointer;
+    font-size: 5.6rem;
+}
+
+.bt-sound:hover{
+    background-color: var(--primary-color);
+    transition: 0.3s;
+    color: #E1E1E6;
+    cursor: pointer;
+}
+
+.time{
+    font-family: 'Roboto', sans-serif;
+    font-size: 9rem;
+    font-weight: normal;    
+    color: var(--desc-color);
+}
+
+.botoes button{
+    width: 48px;
+    height: 48px;
+    background-color: transparent;
+    border: none;
+    border-radius: 16px;
+    font-size: 40px;
+    color: var(--desc-color);
+    cursor: pointer;
+}
+
+#app{
+    width: 80%;
+    height: 90vh;
+    
+    display: grid;
+    place-content: center;
+    grid-template-columns: 1fr 1fr;
+    gap: 6.4rem;
+    justify-content: center;
+    align-items: center;
+}

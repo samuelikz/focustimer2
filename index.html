@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Focus Time</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <script type="module" src="assets/js/main.js"></script>
+</head>
+<body>
+    <div id="app">
+        <section class="relogio flex-center flex-direction">
+            <div class="time flex-center">
+                <span id="minutos">25</span>
+                <span>:</span>
+                <span id="segundos">00</span>
+            </div>
+            <section class="botoes">
+                <button id="iniciar" class="ph ph-play-circle"></button>
+                <button id="pausar" class="ph ph-stop-circle"></button>
+                <button id="up-sound" class="ph ph-plus-circle"></button>
+                <button id="low-sound" class="ph ph-minus-circle""></button>
+            </section>
+        </section>
+        <section class="sounds">
+            <section class="butoes">
+                <div class="flex-center gap32">
+                    <button id="Floresta" class="bt-sound ph ph-tree"></button>
+                    <button id="Chuva" class="bt-sound ph ph-cloud-rain"></button>
+                </div>
+                <div class="flex-center gap32">
+                    <button id="Cafeteria" class="bt-sound ph ph-coffee"></button>
+                    <button id="Lareira" class="bt-sound ph ph-fire"></button>
+                </div>
+            </section>
+        </section>
+    </div>
+</body>
+</html>
